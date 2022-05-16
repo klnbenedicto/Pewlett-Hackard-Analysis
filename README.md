@@ -1,1 +1,4 @@
 # Pewlett-Hackard-Analysis
+
+## The Number of Retiring Employees by Title
+I've created a Retirement Titles table that holds all the titles of employees who are of eligible retirements age: those born between January 1, 1952 and December 31, 1955. I used the DISTINCT ON statement to find the most recent title of each employee and eliminate redundancies of employees who had multiple titles due to promotions or transfers. Using the COUNT function, I created a table that has the number of potential reitrees by most recent job title and then removed the emoployees who have already left the company. The results for count of employees eligible for retirement by department can be found in retiring_titles.csv.
